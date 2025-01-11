@@ -15,12 +15,12 @@ public class Main_class extends JFrame {
         img.setBounds(0,0,1120,630);
         add(img);
 
-        JLabel heading = new JLabel("Employee Management System");
+        JLabel heading = new JLabel("Student Management System");
         heading.setBounds(340,140,400,40);
         heading.setFont(new Font("Raleway",Font.BOLD,25));
         img.add(heading);
 
-        JButton add = new JButton("Add Employee");
+        JButton add = new JButton("Add Student");
         add.setBounds(335,270,150,40);
         add.setForeground(Color.white);
         add.setBackground(Color.BLACK);
@@ -33,7 +33,7 @@ public class Main_class extends JFrame {
         });
         img.add(add);
 
-        JButton view = new JButton("View Employees");
+        JButton view = new JButton("View Student");
         view.setBounds(565,270,150,40);
         view.setForeground(Color.white);
         view.setBackground(Color.BLACK);
@@ -46,7 +46,7 @@ public class Main_class extends JFrame {
         });
         img.add(view);
 
-        JButton remove = new JButton("Remove Employee");
+        JButton remove = new JButton("Remove Student");
         remove.setBounds(440,370,150,40);
         remove.setForeground(Color.white);
         remove.setBackground(Color.BLACK);

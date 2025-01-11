@@ -19,7 +19,7 @@ public class UpdateEmployee extends JFrame implements ActionListener {
         this.number = number;
         getContentPane().setBackground(new Color(163,255,188));
 
-        JLabel heading = new JLabel("Add Employee Detail");
+        JLabel heading = new JLabel("Add Student Detail");
         heading.setBounds(330,30,500,50);
         heading.setFont(new Font("serif",Font.BOLD,25));
         add(heading);
@@ -126,7 +126,7 @@ public class UpdateEmployee extends JFrame implements ActionListener {
 //        taadhar.setFont(new Font("SAN_SERIF",Font.BOLD,20));
 //        add(taadhar);
 
-        JLabel empid = new JLabel("Employee ID");
+        JLabel empid = new JLabel("Student ID");
         empid.setBounds(50,400,150,30);
         empid.setFont(new Font("SAN_SERIF",Font.BOLD,20));
         add(empid);

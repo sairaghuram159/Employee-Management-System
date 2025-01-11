@@ -16,7 +16,7 @@ public class View_Employee extends JFrame implements ActionListener {
     View_Employee(){
 
         getContentPane().setBackground(new Color(255,131,122));
-        JLabel search = new JLabel("Search by employee id");
+        JLabel search = new JLabel("Search by Student id");
         search.setBounds(20,20,150,20);
         add(search);
 

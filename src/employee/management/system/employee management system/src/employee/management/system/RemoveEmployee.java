@@ -13,7 +13,7 @@ public class RemoveEmployee extends JFrame implements ActionListener {
     JButton delete,back;
     RemoveEmployee(){
 
-        JLabel label = new JLabel("Employee ID");
+        JLabel label = new JLabel("Student ID");
         label.setBounds(50,50,100,30);
         label.setFont(new Font("Tahoma",Font.BOLD,15));
         add(label);
